@@ -1,0 +1,10 @@
+package CreationalDesignPatterns.FactoryDesignPattern.DifferentNotifications;
+
+import CreationalDesignPatterns.FactoryDesignPattern.Notification;
+
+public class EmailNotification implements Notification {
+    @Override
+    public void send(String message) {
+        System.out.println("Sending EMAIL: " + message);
+    }
+}
